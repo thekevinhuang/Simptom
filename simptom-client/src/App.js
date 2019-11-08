@@ -17,21 +17,19 @@ class App extends Component {
 
   render() {
     return (
-      <Switch>
-        <Route exact path = "/" component ={Home}/>
-      </Switch>
+      <Router>
+        <Switch>
+          <Route exact path = "/" component ={Home}/>
+        </Switch>
+      </Router>
     )
   }
 }
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
-
-
+const mapStateToProps = state => {
+  return {
+    currentUser:state.currentUser
+  }
 }
 
 export default connect(mapStateToProps)(App);
