@@ -1,0 +1,4 @@
+Build out homepage with Google login capabilities
+1) Load google in index.html
+2) create component to deal with google login.
+3) create tests?
