@@ -1,4 +1,6 @@
 Build out homepage with Google login capabilities
+
+Seems like omniauth has some security vulnerabilities, need to investigate the best authentication strategy.
 1) Load google in index.html
 2) create component to deal with google login.
 3) create tests?

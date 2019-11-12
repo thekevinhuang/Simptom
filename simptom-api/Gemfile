@@ -15,6 +15,7 @@ gem 'puma', '~> 3.11'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt'
+
 gem 'omniauth-rails_csrf_protection'
 gem 'omniauth-google-oauth2'
 
